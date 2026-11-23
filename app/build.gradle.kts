@@ -4,8 +4,7 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
     id("org.jetbrains.kotlin.plugin.serialization")
-    // Descomentar al colocar google-services.json en la carpeta app/
-    // id("com.google.gms.google-services")
+    id("com.google.gms.google-services")
 }
 
 android {
